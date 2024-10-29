@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
+	<title>Ear Trading</title>
+	
+	<link rel="stylesheet" href="css/style.css" />
+	<link rel="stylesheet" href="css/960.css" />
+	
+	<script type="text/javascript" src="js/jquery.js"></script>
+	
+	<script type="text/javascript" src="js/fancybox/jquery.fancybox-1.3.1.js"></script>
+	<link rel="stylesheet" type="text/css" href="js/fancybox/jquery.fancybox-1.3.1.css" media="screen" />
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$(".fancybox").fancybox();
+		});
+	</script>
+	
+	<script src="js/cufon-yui.js" type="text/javascript"></script>
+	<script src="js/BETA.Tekton_Pro_700.font.js" type="text/javascript"></script>
+	<script type="text/javascript">
+			Cufon.replace("#header h1");
+	</script>
+	
+	<script type="text/javascript">
+		var _gaq = _gaq || [];
+		_gaq.push(['_setAccount', 'UA-8218091-4']);
+		_gaq.push(['_trackPageview']);
+
+		(function() {
+			var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+			ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+			var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+		})();
+</script>
+</head>
+<body>
+	<div id="header">
+		<div class="container_12">
+			<div class="grid_1">
+				<img id="icon" src="img/icon.png" />
+			</div>
+			<div class="grid_8">
+				<h1>
+					<strong>Ear Trading</strong>The sounds surround you
+				</h1>
+				<small>version 1.1</small>
+			</div>
+			<div class="grid_3">
+				
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+	<div id="main">
+		<div class="container_12">
+			<div class="grid_6">
+				<p>
+					Ear Trading was both a game and a generative music machine developed by <a href="http://barrymoon.com">Barry Moon</a> and <a href="http://www.moon.au">Brenda Moon</a> in 2010 and distributed through the Apple App store. It is no longer available because changes in iOS stopped the sound from working.
+				</p>
+				<p>
+					As a game, imaginary shares are traded using live data from the <a href="http://batstrading.com/market_data/">BATS Exchange</a>. You start with $500,000 and buy/sell to try to make your fortune. Each of the 5 shares has its own musical instrument with up to 8 sounds each. The trading volume for a share determines how many notes are played, and the share price determines the pitch. An upwards pitch sequence means the share price is going up and a downwards pitch sequence means it is going down. Using headphones, you can hear sounds for each of the 5 shares spatialized around you. The game screen shows you the data for each share and lets you rotate the shares and sounds to see them all.
+				</p>	
+				<p>
+					A "Settings" screen lets you customize the way the music is generated. You can change the tempo (the rate of the beat), which sounds are allocated to each instrument, and a set of parameters called "Beat Tables". Beat Tables are probability tables that determine which beats of a "measure" or "bar" each instrument is most likely to be heard.				</p>
+				<p>
+					Shares can only be traded when the market is open, between 9am and 4pm weekdays, New York time. Because the game requires continuous live share data, you need to be connected to the internet through WiFi to play.
+				</p>
+				<p>
+					Even when the market is closed, you can still use the Settings editor to change the way the game sounds.
+				</p>
+				<p>
+					Please use headphones for the best game experience, and jam!
+				</p>
+			</div>
+			<div class="grid_6">
+				<img src="img/phone.png" alt="placeholder" />
+			    <audio src="audio.mp3" controls></audio>
+			</div>
+			<div class="clear"></div>
+			
+			<div class="grid_3">
+				<a class="fancybox" href="img/screen1.png"><img src="img/screen1-thumb.png" alt="Startup screen" /></a>
+			</div>
+			<div class="grid_3">
+				<a class="fancybox" href="img/screen2.png"><img src="img/screen2-thumb.png" alt="Game screen" /></a>
+			</div>
+			<div class="grid_3">
+				<a class="fancybox" href="img/screen3.png"><img src="img/screen3-thumb.png" alt="Sound chooser" /></a>
+			</div>
+			<div class="grid_3">
+				<a class="fancybox" href="img/screen4.png"><img src="img/screen4-thumb.png" alt="Beat table" /></a>
+			</div>
+			<div class="clear"></div>
+			<div class="grid_6 prefix_3 suffix_6" id="footer">
+				<p id="contact">For questions, comments, technical support, or bug reports, please contact us at <a href="mailto:brenda@moon.au">brenda@moon.au</a></p>
+				<small id="copy">&copy; 2010 Barry Moon &amp; Brenda Moon</small>
+			</div>
+			<div class="clear"></div>
+		</div>
+	</div>
+</body>
+</html>
